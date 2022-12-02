@@ -1,4 +1,5 @@
-bool numeroprimo(int n, int i) {
+bool numeroprimo(int n, int i) 
+{
     int s;
     if (i < 2)
         return true;

@@ -1,9 +1,10 @@
 #include <iostream>
 #include "lib.h"
-int main(){
-    int n, i;
-        cin>>n;
+using namespace std;
+    int main() {
+        int n, i;
         bool result;
+        cin>>n;
         i=n-1;
         result =numeroprimo(n,i);
         if (result ==1)
@@ -13,5 +14,5 @@ int main(){
         else {
             cout<<"numero non primo";
         }
-  return 0;
-}
+        return 0;
+    }

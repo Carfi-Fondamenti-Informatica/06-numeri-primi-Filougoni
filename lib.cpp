@@ -1,12 +1,10 @@
 bool numeroprimo(int n, int i) {
-    int s = 0;
+    int s;
     if (i < 2)
         return true;
-        s = (n % i);
-
+    s = (n % i);
     if (s == 0)
         return false;
-        else
+    else
         s = numeroprimo(n, i - 1);
-
 }

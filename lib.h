@@ -1,5 +1,4 @@
-#ifndef ESERCITAZIONE_LIB_H
-#define ESERCITAZIONE_LIB_H
+#ifndef esercitazione_LIB_H
+#define esercitazione_LIB_H
 bool numeroprimo (int n, int i);
-#endif //ESERCITAZIONE_LIB_H
-
+#endif //esercitazione_LIB_H

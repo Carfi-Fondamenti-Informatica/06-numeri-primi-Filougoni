@@ -1,4 +1,3 @@
-#include "lib.h"
 using namespace std;
 bool numeroprimo(int n, int i) {
     int s = 0;
